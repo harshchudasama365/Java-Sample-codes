@@ -1,0 +1,57 @@
+package com.greatlearning;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+
+public class JdbcDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Connection  con = null;
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/week4","root","root");
+			
+//			if(con!=null) {
+//				System.out.println("Connection Established");
+//			}
+//			else {
+//				System.out.println("Connection not Established");
+//			}
+			
+
+			Statement st=con.createStatement();
+	        
+//	        st.executeUpdate("create table JK (eno int,ename varchar(20),esal int)");
+//			  System.out.println("table created");
+	        st.executeUpdate("insert into JK values(111,'fazal',5000)");
+	        System.out.println("inserted properly");
+	       
+	        
+	      
+			
+			
+			con.close();
+		}catch(Exception e) {
+			if(con!=null) {
+				try {
+					con.close();
+				}catch(SQLException e1) {
+					e1.printStackTrace();
+				}
+			}
+			
+		}
+		
+		
+
+	}
+		
+
+}
+
+
+

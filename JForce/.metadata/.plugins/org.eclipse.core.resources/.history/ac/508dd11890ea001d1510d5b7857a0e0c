@@ -1,0 +1,37 @@
+package net.javaguides.springboot.web;
+
+import java.util.List;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import net.javaguides.springboot.model.Vote;
+import net.javaguides.springboot.repository.VoteRepository;
+import net.javaguides.springboot.web.dto.VoteSelectedDto;
+
+@Controller
+public class MainController {
+	
+	@Autowired
+	VoteRepository voteRepo;
+	
+	@GetMapping("/login")
+	public String login() {
+		return "login";
+	}
+	
+	@GetMapping("/")
+	public String home(HttpSession httpSession) {
+		
+		List<Vote> voteList = voteRepo.findAll();
+		httpSession.setAttribute("voteList", voteList);
+		httpSession.setAttribute("voteSelectedDto", new VoteSelectedDto());
+//		model.addAttribute("voteSelectedDto", new VoteSelectedDto());
+		return "index";
+	}
+	
+	
+}

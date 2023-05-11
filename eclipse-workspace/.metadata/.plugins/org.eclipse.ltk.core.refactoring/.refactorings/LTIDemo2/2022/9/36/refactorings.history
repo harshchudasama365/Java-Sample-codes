@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.LTI.Demo.throwsChecked&apos; to &apos;ThrowsChecked&apos;&#x0D;&#x0A;- Original project: &apos;LTIDemo2&apos;&#x0D;&#x0A;- Original element: &apos;com.LTI.Demo.throwsChecked&apos;&#x0D;&#x0A;- Renamed element: &apos;com.LTI.Demo.ThrowsChecked&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;throwsChecked&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.LTI.Demo{throwsChecked.java[throwsChecked" matchStrategy="1" name="ThrowsChecked" qualified="false" references="true" similarDeclarations="true" stamp="1662009856163" textual="false" version="1.0"/>
+</session>
