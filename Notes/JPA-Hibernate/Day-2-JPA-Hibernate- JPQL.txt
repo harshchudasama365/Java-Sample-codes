@@ -1,0 +1,85 @@
+Day-2 JPA-Hibernate---JPQL--Java Peristence Query Language
+-----------------------------------------------------------
+How to write querries?
+Query
+TypedQuery
+NamedQuery
+----------------------------------------------------------
+Select query
+Insert query
+Update query
+Aggregate Functions
+Between In Like
+-----------------------------------------------------------
+Layered Architecture?
+-----------------------------------------------------------
+Angular-Update
+Create-Delete-Edit/Update-GetAllGetBYId
+------------------------------------------------------------
+Query
+EntityManager em;
+em.createQuery("Select * from Student",Student.class);
+
+em.find(Student.class,101)//only deals with single entity-object
+
+Student List--Collections
+Query--As per user crieteria
+Dynamic in nature
+ReslutList
+singleResult
+---------------------------------------------------------
+TypedQuery---Type of data from Database--TypeSpecific--Dynamic in nature
+Student---
+Rollno--int
+Name---String
+Student s1;//Student type 
+TypedQuery<Student> tq = em.createQuery("Query",Student.class);
+TypedQuery<Employee>
+TypedQuery<Customer>
+TypedQuery<String>
+-----------------------------------------------------
+NamedQuery----@NamedQuery /@NamedQueries
+---static query
+---creating the entity class
+---compiled time execution
+
+------------------------------------------------------
+Select * from Student;
+SQL Synatx---JPA not support
+-----------------------------------------------------
+JPQL
+Database--->JavaApplicatio
+Object/Record----->JavaApplication
+Query----->
+
+SELECT s FROM Student As s;
+Object-List/Records
+
+SELECT/UPDATE ----- s-Object
+Tablename----Class name
+
+
+Association------mapping
+
+TypedQuery---Joins
+Employee---
+Department---DeptId,Deptname
+join two classes with reference---foreign key
+TypedQuery<Department>
+TypedQuery<Employee>
+To display the department name of eid=101
+--------------------------------------------------------
+Layered Architecture
+Application(ENTITY)<--->Service<---->DAO<------>DATABASE
+
+
+
+
+
+
+
+
+
+
+
+

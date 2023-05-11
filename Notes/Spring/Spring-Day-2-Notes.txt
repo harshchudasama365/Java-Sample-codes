@@ -1,0 +1,82 @@
+Spring-Day-2
+--------------------------------------
+1.Spring Autowiring
+Autowiring
+types of autowiring
+xml/annotations
+2.Spring Bean scope
+-default
+-types
+3.Qualifier Annotations
+4.Project Discussion
+5.Spring+JDBC
+6.Spring+JPA
+----------------------------------------
+DI
+Setter--->property and ref
+Constructor------>const-arg and ref
+--------------------------------------------
+Autowiring--->Inject Entity ref acts as property for another entity
+---remove the extra code
+doing DI by spring framework
+without writing the ref tag inside property and const-arg
+How autowiring is done/achieve?
+---autowire keyword-- in xml
+---@Autowire--annotations
+------------------------Modes of Autowiring------------
+by Name--autowiring the dependencies by reference name 
+by Type--autowiring the dependencies by classname
+by Constructor--autowiring the dependencies by constructor
+no mode--No  autowiring
+automode--default
+XML way
+---------------------------------------------------------
+Autowire by using @Autowire annotation
+no write to keyword for autowire
+bean c1--->account
+-------drawbacks-----
+bean scope
+singleton-->(by default)-->Only one object created inside your container
+prototype-->explicitly-->many objects inside IOC-container
+------------------------------------------------------------
+JDBC-->
+JDBCTemplate--class
+it is used to connect with database.
+to avid the boilerplate code--repeatation of code
+work with queries
+extract the result set from db
+DataSource-->refernce of this DataSource inject in JDBCTemplate
+either via constructor or setter
+Once your JDBCTemplate object/bean created at that DAtaSource bean automatically injected
+
+------------------------------------------------------------
+Spring +JPA
+new dependency--->spring-orm
+------------->ojdbc7.jar
+------------->spring-context
+------------->spring-jdbc
+Spring.xml + META-INF/persistence.xml
+
+@Repository--->sterotype annotation
+class-level
+class is responsible for performing the operations with your database
+@PersistenceContext-->creates a entitymanager bean by entitymanagerfactory bean
+@Transactional-->tx tag inside spring.xml
+getTransaction.begin(),commit()
+@Service-->class acts as service class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

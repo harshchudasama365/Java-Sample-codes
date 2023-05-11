@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+
+<!-- if scope is prototype type we can create multiple objects using signle bean-->
+<!-- Multiple '-->
+<!-- 
+<bean id="gad-1" class="com.lti.entity.Gadget" scope="prototype">
+	<property name="gname" value="Mobile-1"></property>
+</bean>--> 
+
+<!--
+<bean id="gad-1" class="com.lti.entity.Gadget" scope="prototype">
+	<property name="gname" value="Mobile-1"></property>
+</bean>
+ -->
+ 
+ <!-- if scope is singleton type we can create only single object for a signle bean-->
+ <!-- if we create multiple obj then thier address will be same, means single obj is there only-->
+
+<bean id="gad-1" class="com.lti.entity.Gadget" scope="singleton">
+	<property name="gname" value="Mobile-1"></property>
+</bean>
+ 
+ 
+</beans>

@@ -1,0 +1,158 @@
+Day-1-Angular
+----------------------
+1.Enviornment Setup
+-Installation
+	1.Node.js : 
+	2.VisualStudiocode-IDE
+	3.Typescript 
+	4.Angular installation
+2.Create a simple project in angular
+-commands
+3.File Structures of the project
+4.Modules - How,Why,where,When?
+5.Components : NestedComponents : How create a component?
+6.HTML/CSS
+7.Data binding 
+ 
+-------------------------------------------------
+
+What is Angular?
+It is open source frontend-Single Page Application.
+Web-applications,SPA architeture.
+
+To execute the web applications :
+Node.js : It is node server and enviornment is provided 
+by the npm : node package manager.
+
+Typescript : language ,open-source, developed by Microsoft.
+provides : code navigation, strong typing, Intelligence for 
+OOPs.
+
+To create the web applications : Angular
+IDE : VisualStudioCode
+
+-------------------------------------------------
+Downloads links :
+https://code.visualstudio.com/
+https://nodejs.org/en/download/
+-----------------------------------------------------
+npm install -g typescript 
+---------------------------------------------------
+npm install -g @angular/cli
+--------------------------------------------
+to check the version of Angular
+ng v
+--------------------------------------------
+ng : Angular
+-------------------------------------------
+2. To create a project in Angular
+ng new AngularApp_1
+3. To run the Angular application
+ng serve -o
+--------------------------
+Component : combination of HTML(View) + TS(bussiness-logic) : 
+Angular provides : ROOT Component :user can define no of user components
+
+@Component : decorator : Meta-data to configuration file
+Typescript class :
+
+LoginComponent : 
+HTML+CSS : view : Login-StudentApplication.html 
+TS : BL : Authentication/Student class
+LoginComponent.html
+logincomponent.ts
+spec.ts : Test files
+--------------------------------------------------------
+Modules : container : group of components, services, diresctives, pipes, 
+AngularModule : Default : @NgModule
+FeatureModule : UserDefined :@NgModule
+-------------------------------------------------------
+Why : Modular Development as per project required. : ProjectConcerns
+-------------------------------------------------------
+Many Components : inside the 1 Angular Module
+If user requires to arrane the things : Own Module : @NgModule
+-------------------------------------------------
+
+To ceate a component : ng g c home
+Component : HTML + CSS + TS + Spec
+RootComponent : app-root
+Userdefined :Child components / nested components
+-----------------------------------------------------------
+
+TEMPLATES : EXTERNAL tEMPLATE // iNTERNAL tEMPLATE :INLINE TEMPLATES **(LARGE CODE HTML)
+
+--------------------------------------------
+data binding : {{property-name}} - one way binding
+Pass the value from component to view / view to component
+		from .ts file to .html
+--------interpolation-----------------
+console.log // used to print the output on the console
+One way binding - Event binding
+button - clicked-Html to Ts message appered
+----------------------------------------------
+Two way binding  : [(ngModel)]
+Event + property binding = two way binding
+--------------------------------------------------
+Structural Directives :
+*ngFor & *ngIf  & *ngSwitch
+---------------------------------------
+Routing : it is a mechanism  used for navigating 
+between pages and displaying appropriate component.
+router-outlet :dynamic component
+router-link : name of the link
+--------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://code.visualstudio.com/
+https://nodejs.org/en/download/

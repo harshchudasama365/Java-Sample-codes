@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMP_MAP2" directorySegmentName="seg_0" id="31CAD3E7-CCA4-2DFC-3F9B-10EE571B67C1">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<schemaObject>51A7DCCC-C8B4-15EE-396F-450627EEBA48</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>34C3C421-881C-FEA5-850A-41D3CDD81DC8</segment>
+<tableSpace>57205477-A185-FFA7-D6B6-0DDA51FCE579</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ENAME" id="08701076-B8CB-8DD2-B4A9-B13E44E2D5B8">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EID" id="AA93FA8C-2968-5848-561F-98D545040E06">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FK_DEPTID" id="B6183009-AEE5-A321-82A4-488B389325E9">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY" id="E42B1180-95F4-CC56-251D-EBD435FCCFAE">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BXUCR95PTIXAO01ESN0V5P22M" id="6FE7BD2F-72B1-70E8-C92B-77D2584B1414">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMP_MAP2_PK" id="309EA7BF-6FB3-445D-AA60-34628E1E0094">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<schemaObject>51A7DCCC-C8B4-15EE-396F-450627EEBA48</schemaObject>
+<segment>DAFC8E0A-7AC7-8937-B593-6EB339A4E36F</segment>
+<tableSpace>57205477-A185-FFA7-D6B6-0DDA51FCE579</tableSpace>
+<indexSegment>DAFC8E0A-7AC7-8937-B593-6EB339A4E36F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

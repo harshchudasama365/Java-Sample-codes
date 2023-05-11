@@ -1,0 +1,87 @@
+Devops-Day-1
+---------------------------------------------------
+Maven
+JUnit
+Git
+Jenkins
+---------------------------------------------------
+Project-OnlineShopping-
+Team-5Members
+Modules-Admin
+Login,Product-Stock,Reatilers,Transaction
+---------------------------------------------------
+Continuous Integration & Continous Devlopment
+------------------------------------------------
+1. Maven - Build Tool
+Project managment Tool
+2. Life cycle of Maven
+3. Installation Maven
+4. Create a project in Eclipse with Maven
+5. Junit : TestCases - Testing
+6. Discuss Simple testcases : addition, string checks,
+7. Design an app for the Employee : Test cases for operations
+-----------Remaining part of Angular---------
+CRUD-operation
+List of students-done <add edit/delete>
+create student
+-----------------------------------------------------------
+Maven- Login operation Login details : Username/password--DB 
+
+ojdbc7.jar //project-DB-(Oracle-MySQL-SEerver)
+
+Dependency-ojdbc.jar-
+
+POM.xml - Project Object Model
+Add the dependency <dependency></dependency>
+Dependency-7 jar files
+
+---------------------------
+Maven-Apache
+--Project managment tool based on pom.xml
+--it is used to build the project, add dependency.
+--It gives project information(log details, dependency list)
+--helps to manage
+-----Builds
+-----Reportring
+-----SCMs : Source Code Managment
+Maven Repository
+---3 types of Repository
+Maven searches the first dependency in 
+LocalRepo then Central then Remote
+Local - repository located on same machine 
+Central - maven repository 
+Remote - site repository-web
+--------------------------------------------------------
+Installation for Maven
+Create a Maven Project
+Command prompt
+From Eclipse 
+-----------------------------------------------------------
+
+BankingApp :
+DB : Oracle :getConnetion():testcase
+Account
+Customer : login : authentication()Testcases
+Transactions : transfer():testcase
+
+
+int add(){
+ int a=10,b=-20;
+int c =a +b;
+return c;
+}
+@Before
+@After
+@BeforeAll
+@AfterAll
+
+@Test
+public void add(){
+assertEquals(30,30);//true//testcase for add() method is succesfull
+}
+
+
+
+
+
+

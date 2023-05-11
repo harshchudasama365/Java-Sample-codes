@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B038486-853A-EB90-8C8D-5C5E49359956" containerWithKeyObject="7D0BB0F1-390F-C07C-1C51-E35644D5D88D" localFKIndex="3DD8E9C4-49BD-4C29-0922-303CE2B39039" name="FK_6HA1Y3SJJ84N0VX0JL4A6BTNT">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>HARSH</sourceObjSchema>
+<sourceObjName>FK_6HA1Y3SJJ84N0VX0JL4A6BTNT</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<referredTableLongName>HARSH.PERSON_MAP1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>false</mandatory>
+<refColNames>PID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

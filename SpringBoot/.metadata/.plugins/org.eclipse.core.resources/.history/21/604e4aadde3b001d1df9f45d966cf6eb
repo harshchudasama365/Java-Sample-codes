@@ -1,0 +1,18 @@
+package com.lti.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.lti.entity.InstituteRegistration;
+
+public class InstituteServiceImpl implements InstituteService{
+	
+	@Autowired
+	private InstituteRegistration instituteRepo;
+
+	@Override
+	public InstituteRegistration addInstitute(InstituteRegistration addObj) {
+		return instituteRepo.save(addObj);
+		
+	}
+
+}

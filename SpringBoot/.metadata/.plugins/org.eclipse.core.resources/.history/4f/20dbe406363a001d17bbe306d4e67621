@@ -1,0 +1,8 @@
+package com.lti.dao;
+
+import com.lti.entity.Student;
+
+public interface StudentService {
+
+	public Student createStudent(Student s);
+}

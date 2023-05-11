@@ -1,0 +1,84 @@
+Spring-Framework-Modules-Total-days-5
+-----------------------------------------
+Day-1
+What is Spring Framework?
+Modules & Features
+Why,Where,How
+Bean
+Object-factory-types ---need
+Installation--dependency--spring tool suite
+IOC-Inversion of Control
+DI-Dependency Injection
+Beans--Lifecycleof bean Bean scope
+-------------------------------------------------------
+
+EJB-Enterprise Java Bean
+complex code
+-------------------------------------------------------
+Lightweight --transperncy
+client-sever
+POJO : Entity 
+Object : Bean
+Spring framework create object for user
+
+practicals- Spring
+Step1-- configure the object--spring.xml
+step2---create a spring container--ApplicationContext
+step---create a bean --bean tag
+How???
+--------------------------------------------
+StudentApp
+Student--properties
+name
+id
+marks 
+
+Student--POJO
+//student stud1 = new Student();
+bean stud1--->from spring container
+--------------------------------------------
+Need
+Enterprise application--remove the complexity of the code
+Bean -->inside the IOC container
+BeanLifeCycle-init(),destroy()
+------------------------------------------------------ 
+Spring DI---Dependency Injection
+DI-design pattern--Loose coupling
+SBI-Bank--->RBI-set of rules
+SBI-BANK-branches--->SBI-Bank---->RBI
+Student--->Address
+Types of Spring DI
+1.setter methods DI //explicitly--no everry time needed--not mandatory
+property tag
+attributes
+name--from POJO class
+ref--from bean tag
+2.constructor DI //manadatory dependency
+contructor-arg
+index
+ref
+----------------------------------------------------------
+Spring-practicals
+	----XML configurations
+	----Annotations
+	----->Spring framewor	
+	----->Java based configuration with annotations
+----------------------------------------------------------
+@Component--class-level-->to create the bean for user--without bean tag
+@Value--at property--->sets the value for property along with component
+----------------------------------------------------------
+Java-based-configurations-annotations
+@Configuration--->class-level-->class acts as configuration 
+config-class--->beans def mainatined by @Bean
+@Bean--->method level--->to create bean for user
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+

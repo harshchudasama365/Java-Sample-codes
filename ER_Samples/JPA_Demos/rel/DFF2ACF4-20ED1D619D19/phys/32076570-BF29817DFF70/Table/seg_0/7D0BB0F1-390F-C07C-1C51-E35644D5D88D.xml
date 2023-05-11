@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MAILADDRESS_MAP1" directorySegmentName="seg_0" id="7D0BB0F1-390F-C07C-1C51-E35644D5D88D">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<schemaObject>51A7DCCC-C8B4-15EE-396F-450627EEBA48</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>34C3C421-881C-FEA5-850A-41D3CDD81DC8</segment>
+<tableSpace>57205477-A185-FFA7-D6B6-0DDA51FCE579</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MAILID" id="2CC5B99C-D409-8414-48F9-19DDE6B88CCE">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAILADD" id="7F7F015C-8083-C4B5-5B3B-7390C9B67826">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PID_MAILLIST_FK" id="DBEEAAA9-671C-69C3-1EB5-4F1F3912DFBB">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_6HA1Y3SJJ84N0VX0JL4A6BTNT" id="3DD8E9C4-49BD-4C29-0922-303CE2B39039">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MAILADDRESS_MAP1_PK" id="5E82B3A2-8447-20E7-A27E-E86D0E4EFA8E">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<schemaObject>51A7DCCC-C8B4-15EE-396F-450627EEBA48</schemaObject>
+<segment>DAFC8E0A-7AC7-8937-B593-6EB339A4E36F</segment>
+<tableSpace>57205477-A185-FFA7-D6B6-0DDA51FCE579</tableSpace>
+<indexSegment>DAFC8E0A-7AC7-8937-B593-6EB339A4E36F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

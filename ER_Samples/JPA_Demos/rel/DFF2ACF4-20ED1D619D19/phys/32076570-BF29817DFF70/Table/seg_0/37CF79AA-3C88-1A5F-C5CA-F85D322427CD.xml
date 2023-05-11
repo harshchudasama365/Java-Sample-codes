@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDER_MAP1" directorySegmentName="seg_0" id="37CF79AA-3C88-1A5F-C5CA-F85D322427CD">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:26 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<schemaObject>51A7DCCC-C8B4-15EE-396F-450627EEBA48</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>34C3C421-881C-FEA5-850A-41D3CDD81DC8</segment>
+<tableSpace>57205477-A185-FFA7-D6B6-0DDA51FCE579</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OID" id="9BCEC8C8-A8E2-9905-14B6-3E7FB971AA7F">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:26 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ONAME" id="E4C0D138-42D1-F355-851F-1A1C3F54370E">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:26 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDER_MAP1_PK" id="0BDA3F41-3AA8-6228-A516-8C7F824FCEB9">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:26 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<schemaObject>51A7DCCC-C8B4-15EE-396F-450627EEBA48</schemaObject>
+<segment>DAFC8E0A-7AC7-8937-B593-6EB339A4E36F</segment>
+<tableSpace>57205477-A185-FFA7-D6B6-0DDA51FCE579</tableSpace>
+<indexSegment>DAFC8E0A-7AC7-8937-B593-6EB339A4E36F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

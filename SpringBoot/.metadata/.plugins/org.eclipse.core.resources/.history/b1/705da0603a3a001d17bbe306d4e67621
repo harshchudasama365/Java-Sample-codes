@@ -1,0 +1,47 @@
+package com.lti.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.lti.entity.Student;
+import com.lti.exception.NoStudentFoundException;
+
+public class StudentServiceImpl implements StudentService {
+
+	@Autowired
+	private StudentRepository sRepo;
+	
+	@Transactional //spring framework transactional
+	@Override
+	public Student createStudent(Student s) {
+		// TODO Auto-generated method stub
+		return sRepo.save(s);
+	}
+
+	@Override
+	public List<Student> listOfStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Student findStudentById(int rollno) throws NoStudentFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Student updateStudentById(int rollno, Student s) throws NoStudentFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Student deleteStudentById(int rollno) throws NoStudentFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

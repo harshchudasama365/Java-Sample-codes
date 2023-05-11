@@ -1,0 +1,21 @@
+<p>create-student works!</p>
+
+<div class="container">
+    <div class="row">
+        <form (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label>roll no:</label>
+                <input type="number" class="form-control" id="rollno" [(ngModel)]="student.rollno" name="rollno">
+            </div>
+            <div class="form-group">
+                <label>name</label>
+                <input type="text" class="form-control" id="name" [(ngModel)]="student.sname" name="sname">
+            </div>
+            <div class="form-group">
+                <label>marks</label>
+                <input type="number" class="form-control" id="marks" [(ngModel)]="student.marks" name="marks">
+            </div>
+            <button type="submit">Create-student</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+Devops-Day-3 
+Total 10-15 Questions : MET-2
+MAVEN : pom.xml//location//fullform
+JUNIT : Testcases//Annotations//
+Git   : Repository//Git commands//Github
+Jenkins : CI/CD//User//Jobs//Configure//Build multiplejobs//post-build-option
+
+-------------------
+Devops-tools
+Jenkins
+What is Jenkins?
+Jenkins is an open-source automation tool for 
+Continuous Integration (CI) and Continuous Deployment (CD).
+It is a server-based system that runs in servlet containers 
+like Apache Tomcat. 
+Jenkins is one of the most used DevOps tools used along with
+other cloud-native tools and allows developers 
+to build, test and deploy software seamlessly.
+
+Installation by cmd
+To start the jenkins
+------------------
+java -jar jenkins.war //jenkins running on default port no.8080
+java -jar jenkins.war --httpPort=8090 //explicitly pass the port no.8090
+open browser : localhost:8090
+username :
+password:
+Dashboard
+--------------------
+How to create users?
+---------------------
+Assign th roles : project requirement
+Developers
+Tester
+---------------------------------------
+Creating jobs
+---------------------------------------
+Manage Jenkins
+Build the job
+Build the job peridically
+H/15 * * * * //Schedule my job for each 15 min.//CRON-expression
+Pipeline
+Remind: presentations : Angular and devops : EOD
+-----------------------------------------------------
+priya.s1011@gmail.com
+
+
+

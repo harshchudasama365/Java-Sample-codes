@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ACC_MAP1" directorySegmentName="seg_0" id="535FCE62-0927-6601-95DA-A67DAE4D536B">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:16:34 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<schemaObject>51A7DCCC-C8B4-15EE-396F-450627EEBA48</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>34C3C421-881C-FEA5-850A-41D3CDD81DC8</segment>
+<tableSpace>57205477-A185-FFA7-D6B6-0DDA51FCE579</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BNAME" id="CF0C30E3-6BC0-3D1C-B5CC-8C6259E67A50">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:16:34 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCNO" id="FA08D224-BBFD-FE17-D823-E19A5432CB1C">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:16:34 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCBAL" id="FB0C122F-A939-CA43-CB1A-243B17CD6F59">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:16:34 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACC_MAP1_PK" id="CF5C7C13-A028-C93B-EA17-EFD86E7001DB">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:16:34 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<schemaObject>51A7DCCC-C8B4-15EE-396F-450627EEBA48</schemaObject>
+<segment>DAFC8E0A-7AC7-8937-B593-6EB339A4E36F</segment>
+<tableSpace>57205477-A185-FFA7-D6B6-0DDA51FCE579</tableSpace>
+<indexSegment>DAFC8E0A-7AC7-8937-B593-6EB339A4E36F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

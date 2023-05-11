@@ -1,0 +1,159 @@
+Day3---JPA-Hibernate-Association-mapping
+------------------------------------------
+1.Association-Mappings
+-One to One
+-One to many
+-Many to many
+-Many to one
+2. Direction of the Mapping
+Uni-directional
+Bi-directional
+3. TypedQuery -Joins
+---------------------------------------------
+@Id---primary key of the Entity
+---------------------------------------------
+JPA-Association---relationship between the entities
+Mappings : Annotations Hibernate
+
+OwnerEntity----ReferenceEntity
+Eg : Department ----->>> Employee
+Eg : Student  ------->>> Address/Laptops
+
+a)OneToOne---@OnetoOne
+Eg: Employee---->Account
+b)OneToMany
+Owner :Many
+Reference :One	
+Department------>>>Employee
+Eg:OneBank ---->>>ManyCustomer
+OneCustomer----->>>ManyProduct
+c)Many To One
+Eg: ManyProducts--->OneOrder
+d)Many to many
+Employee<---->Project
+Student<--->Course
+JPA-allows :associations @OneTone.@OneToMany,@ManyToMany
+-----------------------------------------------------------
+Directionality
+****
+*--Uni-directional : One way
+	OwnerEntity--ReferenceEnity
+	Access : One way--->owner to refernce only
+	ReverseAccess: Refrence to owner--not allowed
+	One to one
+	one to many
+*--Bi-Directional : Two way
+	---mappedBy----
+	Reference side
+	Owner to Refrence
+	reverse access is allowed
+	FK--Entity-Owner
+	One to One --- Passport ---- User
+-----------------------------------------------------------
+One TO Many---> Always Owner side acts as Refrence side
+Bi-directional--->Foreign Key always generated inside the Reference Side
+-----------------------------------------------------------
+Cascade---cascadeType.ALL
+Owner--refrence---> Persist()
+@JoinColumn--->Creating the user-defined foreign key
+	   --->used at owner entity
+	------>Owner Entity id is act as foreign key in reference entity
+	------>No extra table created
+	------> if it is not mentioned extra table is created.
+------------------------------------------------------------------
+Many To Many
+Stationary-order
+1-Order
+ManyProducts
+1-Product
+Many-order
+
+@JoinTable---annotation
+When ? To create extra table with the user defined name
+name--Join table name
+joinCloumns--mention the fk name
+inversejoincolumn
+where? owner side
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Association : relationship between the entities
+2. Mappings : Annotations Hibernates 
+	OwnerEntity(PK) - RefrenceEntity(FK)
+	a) One to One
+	   OneEmployee OneAcccount
+	b) One to many
+	   @JoinColumn
+	   Owner:many/Mail
+	   Reference:One/Person	
+	   OneBank ManyCustomers
+	   OneCustomer manyOrders/Products
+	c)Many to One
+	  ManyProducts OneOrder
+	d)Many to many
+	  Employee Project
+	  Student Courses
+	  products : orders 
+3.JPA allows : associations
+4.Hibernate : Annotations
+	@onetoone, @OnetoMany
+5. Directionality : Accessing the entity
+ *--Uni-directional : 
+	OwnerEntity-RefernceEntity : 
+	Access : Owning to refernce only -One way
+	ReverseAccess: Not allowed (Reference to Owner)
+	One to One 
+	One to Many
+ *--Bi-directional :
+	-----mappedBy-----
+	attribute : birectionality : both entities access/association
+	entity : reference side/entity 
+	----------
+	-------FK-----
+	entity : owner
+	-------------
+	both the access is possible
+	owner to reference
+	refrence to owner
+	One to One
+	Passport Citizen
+	
+--------------------------------------------------------
+	One to Many/Many to One
+	owner entity creates many entities.
+	Department--->>Employees
+--------------------------------------------------------
+	Many to many
+	@JoinTable (extra table with the primary keys of both the entities.)
+6.Cascading : ALL,DETACH,MERGE,PERSIST,REFRESH,REMOVE
+	OwnerEntity cascade the ReferenceEntity

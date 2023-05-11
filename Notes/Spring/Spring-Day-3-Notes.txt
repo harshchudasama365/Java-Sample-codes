@@ -1,0 +1,46 @@
+Day-3---Spring 
+--------------------
+Spring MVC Architecture
+-client/Server
+-Servlets/JSP
+-Model,View,Controller
+-DispatcherServlet/FrontController-->Spring MVC
+-Spring MVC annotation
+-practicals
+---------------------------------------------
+spring-mvc-jpa
+----------------------------------------------
+Servlets-->techonology to create the web applications
+HTML--->complete HTML-->fail to send the dynamic data
+JSP-->Java Server Pages-->View to client--->(HTML+JAVAcode<% %>))
+--->In JSP we can send the Dynamic data to client
+----------------------------------------------
+index.jsp
+<html>
+<body>
+<h1>Welcome User <%username%>
+</body>
+</html>
+---------------------------------------------------------
+Spring MVC annotations
+
+@Controller--class-level--class as a controller
+@RequestMapping("/home")
+@ResponseBody--method acts as controller--method-level
+@PathVariable--passing data in url
+@RequestParam--getting data from form/other component
+--------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+

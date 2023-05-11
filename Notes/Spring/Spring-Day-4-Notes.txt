@@ -1,0 +1,80 @@
+Spring-Day-4
+-------------------------------------------
+1. why Spring-boot?
+2. How Spring boot applications creted?
+3. List annotations
+4. Request Mapping and Response Body
+5. Simple applications CRUD --- hard code values
+6. from browser side & client - postman
+postman link--download
+------------------------------------------------
+SpringBoot--JPA---Integration---Postman
+-------------------------------------------------
+Spring boot--is an open source frameowrk with java based apllications
+	---create to design micro-services
+	-->CRUD-appl-
+	-->light-weight model-->spring framework-->bussiness-logic
+	-->Scalable application--Robust applications-->Secure applications
+	-->Minimal configuration
+	--->RAD-->less amount of time aplications are build
+----------------------------------------------------------------
+Why?
+it provides the minimal cofiguration and RAD -> stad-alone application and qualty and production of code is faster and good
+----------------------------------------------------------
+Spring boot --war/jar --Devops--part--> Maven/Gradel
+----------------------------------------------------------
+Spring boot supports from Java 1.8 onwards
+---------------------------------------------------
+Spring boot Need 
+--DI approach by spring boot
+--autoconfiguration is done
+--powerful database transactions supported by spring boot
+--Repository : Spring DATA JPAREpository - CRUD operations
+--reduces the development time and cost of web application.
+--LOC--minimimun--Annotations
+Spring Boot = Spring Framework + Servers + Annotations for Configuration file
+3. HOw we create spring boot applications
+-----3 ways
+	1. By using Spring intializer : https://start.spring.io/
+	2. By using STS-Spring tool suite
+	3. By using Eclipse with Spring tool Suite/dependencies for the spring boot
+--------------------------------------------------------------
+Annotations of Spring Boot
+//Make sure main-method is in the same package name prefix only
+@SpringBootApplication = @Configuration+@EnableAutoConfiguration+@ComponentScan
+@Component:Class as Entity-IOC-bean
+@Bean : creating the objects of Entity
+@Configuration : class-level-class as configurable
+@EnableAutoConfiguration: class is now acts as a configuration file
+@Autowired : Dependency Injetion : bytype : one entity refernce inside the other entity class
+@RestController : class-level @Controller + @ResponseBody Class acts as controller :REST services GET
+@RequestMapping : to mapp the exact handler 
+@ResponseBody@PathVariable	:passing the value using the URI //http:localhost:8080/home/studentId-901
+--------------------------------------------------------------
+Spring boot provides this JSON data only.
+
+SBI ATM card--->Web-Service---->AXIS ATM--->withdraw()--->Money
+
+
+JSON : JavaScript Object Notation : 
+lightweight data interchange format
+Student s1 = new Student();
+s1.Setsname("Anish");
+{"sname":'Anish',"Rollno":123} : POSTMAN :client
+---------------------------------------------------------------
+Webservices : SOAP / REST APIs :JSON <---> HTML,XML,plain text
+SOAP-Simple object access protocol
+REST -RepresentationalSTateTransfer
+
+How REST API Works?
+REST APIs communicate via HTTP requests to perform standard 
+database functions like creating, reading, updating, and deleting records 
+(also known as CRUD) within a resource. 
+For example, a REST API would use a 
+GET request to retrieve a record, 
+POST request to create one, 
+PUT request to update a record, 
+DELETE request to delete one. 
+All HTTP methods can be used in API calls. 
+A well-designed REST API is similar to a website running 
+in a web browser with built-in HTTP functionality.

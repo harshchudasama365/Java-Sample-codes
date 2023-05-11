@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="JPA_Demos" id="BA87E096-826C-A0E9-2716-ED1B64CFA2BB" version="3.5">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:13:03 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BA87E096-826C-A0E9-2716-ED1B64CFA2BB</designId>
+</OSDM_Design>

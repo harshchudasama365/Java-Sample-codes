@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="473E79AF-47DA-FCA1-FD1B-7DD6D183260A" schemaObject="51A7DCCC-C8B4-15EE-396F-450627EEBA48" name="DEPT_MAP1">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>HARSH</sourceObjSchema>
+<sourceObjName>DEPT_MAP1</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:56 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPTID" id="C7805F10-6933-4A7E-EE5A-55A676671AE6">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>DEPT_MAP1</sourceObjSchema>
+<sourceObjName>DEPTID</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:56 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTNAME" id="BAB2EA07-5093-8580-A7AD-EAE0903738DF">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>DEPT_MAP1</sourceObjSchema>
+<sourceObjName>DEPTNAME</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:56 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="100282B2-6B27-3CE8-D614-89BDF032FF8C" schemaObject="51A7DCCC-C8B4-15EE-396F-450627EEBA48" name="DEPT_MAP1_PK">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>HARSH</sourceObjSchema>
+<sourceObjName>SYS_C007288</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:56 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7805F10-6933-4A7E-EE5A-55A676671AE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

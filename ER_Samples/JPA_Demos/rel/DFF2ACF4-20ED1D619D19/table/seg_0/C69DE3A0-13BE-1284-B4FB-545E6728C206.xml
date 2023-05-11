@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C69DE3A0-13BE-1284-B4FB-545E6728C206" schemaObject="51A7DCCC-C8B4-15EE-396F-450627EEBA48" name="PRODUCT_MAP1_ORDER_MAP1">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>HARSH</sourceObjSchema>
+<sourceObjName>PRODUCT_MAP1_ORDER_MAP1</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:18:43 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODLIST_PID" id="8ABF8ACB-9939-F125-68F6-D68022896157">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>PRODUCT_MAP1_ORDER_MAP1</sourceObjSchema>
+<sourceObjName>PRODLIST_PID</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:18:43 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_LIST_OID" id="C01694D0-52B8-D7B0-11E0-EBF878436006">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>PRODUCT_MAP1_ORDER_MAP1</sourceObjSchema>
+<sourceObjName>ORDER_LIST_OID</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:18:43 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

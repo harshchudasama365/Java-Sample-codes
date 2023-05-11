@@ -1,0 +1,12 @@
+package com.lti.dao;
+
+import com.lti.entity.InstituteRegistration;
+import com.lti.entity.Student;
+import com.lti.exception.NoStudentFoundException;
+
+public interface InstituteService {
+
+	public InstituteRegistration addInstitute(InstituteRegistration addObj);
+	
+	public InstituteRegistration findInstituteById(String id);
+}

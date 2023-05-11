@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D0BB0F1-390F-C07C-1C51-E35644D5D88D" schemaObject="51A7DCCC-C8B4-15EE-396F-450627EEBA48" name="MAILADDRESS_MAP1">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>HARSH</sourceObjSchema>
+<sourceObjName>MAILADDRESS_MAP1</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAILID" id="2CC5B99C-D409-8414-48F9-19DDE6B88CCE">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>MAILADDRESS_MAP1</sourceObjSchema>
+<sourceObjName>MAILID</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAILADD" id="7F7F015C-8083-C4B5-5B3B-7390C9B67826">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>MAILADDRESS_MAP1</sourceObjSchema>
+<sourceObjName>MAILADD</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PID_MAILLIST_FK" id="DBEEAAA9-671C-69C3-1EB5-4F1F3912DFBB">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>MAILADDRESS_MAP1</sourceObjSchema>
+<sourceObjName>PID_MAILLIST_FK</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E82B3A2-8447-20E7-A27E-E86D0E4EFA8E" schemaObject="51A7DCCC-C8B4-15EE-396F-450627EEBA48" name="MAILADDRESS_MAP1_PK">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>HARSH</sourceObjSchema>
+<sourceObjName>SYS_C007242</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CC5B99C-D409-8414-48F9-19DDE6B88CCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DD8E9C4-49BD-4C29-0922-303CE2B39039" name="FK_6HA1Y3SJJ84N0VX0JL4A6BTNT">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:17:15 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBEEAAA9-671C-69C3-1EB5-4F1F3912DFBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

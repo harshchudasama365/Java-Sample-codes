@@ -1,0 +1,46 @@
+<p>student-list works!</p>
+
+<table border = '2px'>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Rollno</th>
+            <th>Student_name</th>
+            <th>Marks</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students" >
+            <td>
+                <div *ngIf="triggerUpdateStudent; else elseBlock1">
+                    
+                </div>
+                <ng-template #elseBlock1>{{student.id}}</ng-template>
+            </td>
+            <td>
+                <div *ngIf="triggerUpdateStudent; else elseBlock2">
+                    
+                </div>
+                <ng-template #elseBlock2>{{student.rollno}}</ng-template>
+            </td>
+            <td>
+                <div *ngIf="triggerUpdateStudent; else elseBlock3">
+                    
+                </div>
+                <ng-template #elseBlock3>{{student.sname}}</ng-template>
+            </td>
+            <td>
+                <div *ngIf="triggerUpdateStudent; else elseBlock4">
+                    
+                </div>
+                <ng-template #elseBlock4>{{student.marks}}</ng-template>
+            </td>
+            <td>
+                <button (click)="updateStudent(student.id)">Update student</button>
+                <!-- <button routerLink="/update-student" routerLinkActive="active">Update student</button> -->
+                <button (click)="deleteStudent(student.id)">Delete student</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

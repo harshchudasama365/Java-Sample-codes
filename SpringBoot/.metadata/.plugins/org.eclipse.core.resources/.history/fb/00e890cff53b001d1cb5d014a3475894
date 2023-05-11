@@ -1,0 +1,42 @@
+package com.lti.dao;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.lti.entity.InstituteLogin;
+import com.lti.entity.InstituteRegistration;
+import com.lti.entity.Student;
+import com.lti.exception.NoInstituteFoundException;
+import com.lti.exception.NoStudentFoundException;
+
+@Service
+public class InstituteServiceImpl implements InstituteService{
+	
+	@Autowired
+	private InstituteRepository instituteRepo;
+	
+	
+
+	@Transactional
+	@Override
+	public InstituteRegistration addInstitute(InstituteRegistration addObj) {
+		return instituteRepo.save(addObj);
+		
+	}
+	
+//	@Override
+//	public InstituteLogin findInstituteById(String id) throws NoInstituteFoundException {
+//		Optional<InstituteLogin> iFind = instituteCred.findById(id);
+//		InstituteLogin inst = null;
+//		if(iFind.isPresent()) {
+//			inst =  iFind.get();
+//		}else {
+//			throw new NoInstituteFoundException("Institute not Found Exc called");
+//		}
+//		return inst;
+//	}
+
+}

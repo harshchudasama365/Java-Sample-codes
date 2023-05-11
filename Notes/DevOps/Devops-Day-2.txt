@@ -1,0 +1,71 @@
+Devops-Day-2
+------------------------------------
+JUnit-Connection-test
+Testcases-EmployeeApp-ADD(),DELETE(),UPDATE(),List()//Database
+----------------------------------------
+Git-Installation
+What is Git?
+Area: 
+Modified/Working
+Staged
+Commited
+Github??Creating an account : Repo
+--------------------------------------------------
+***Create a local repository and push to remote repo (github repo)
+
+1.Create an account on github
+2.Create a repository on Github
+3.To configure the user
+git config --global user.email"priya.s1011@gmail"
+git config --global user.name"sarodepriya"
+4.To intialize a repository Git creates hidden directory called .git
+git init
+5.To display the state of the repository and staging area.
+git status
+to get back from vim editor ---press ESC:wq press enter
+6.To add all files (Modified to staged area)
+git add . /// git add filename
+7.To save the files (staged area to committed area)
+git commit -m "Message"
+8.To see the details of the total commit 
+git log --- commitkeys are displayed
+9. To go back/ undo
+git checkout commitkey
+10.To push the local repo to github repo/remote repo
+git remote add origin https://githubrepo
+git push -u origin master
+-----------------------------------------------------------
+****Remote repo to local repo
+git clone
+-------------------------------
+*** To create a branch and switch to branch
+git branch branchname
+git checkout branchname
+------------------------------------------
+Merging the branches
+git merge
+to remove the conflict
+which version/data/code you want. keep that code
+do the commit.
+-----------------------------------------------
+Eclipse to Github
+Windows-ShowView-Git-GitRepositories
+Clone the repository-Username-gituhbtoken
+RightClick on project-Team-ShareProject
+RightClick on Project-Team-commit
+Unstaged to staged click on ++button
+Right a commit message
+click on Commit and Push button
+-------------------------------------------------
+Git commands
+Gitbash/cmd
+git init
+git status
+git log
+git add .
+git branch
+git checkout
+git merge
+Local to Remote
+Remote to Local
+Eclipse to remote

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31CAD3E7-CCA4-2DFC-3F9B-10EE571B67C1" schemaObject="51A7DCCC-C8B4-15EE-396F-450627EEBA48" name="EMP_MAP2">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>HARSH</sourceObjSchema>
+<sourceObjName>EMP_MAP2</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EID" id="AA93FA8C-2968-5848-561F-98D545040E06">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>EMP_MAP2</sourceObjSchema>
+<sourceObjName>EID</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENAME" id="08701076-B8CB-8DD2-B4A9-B13E44E2D5B8">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>EMP_MAP2</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY" id="E42B1180-95F4-CC56-251D-EBD435FCCFAE">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>EMP_MAP2</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_DEPTID" id="B6183009-AEE5-A321-82A4-488B389325E9">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>EMP_MAP2</sourceObjSchema>
+<sourceObjName>FK_DEPTID</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72468A7F-2276-4074-CAE9-56ADED0B6413" referredColumn="C7805F10-6933-4A7E-EE5A-55A676671AE6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="309EA7BF-6FB3-445D-AA60-34628E1E0094" schemaObject="51A7DCCC-C8B4-15EE-396F-450627EEBA48" name="EMP_MAP2_PK">
+<sourceConnName>abc</sourceConnName>
+<sourceObjSchema>HARSH</sourceObjSchema>
+<sourceObjName>SYS_C007291</sourceObjName>
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA93FA8C-2968-5848-561F-98D545040E06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FE7BD2F-72B1-70E8-C92B-77D2584B1414" name="FK_BXUCR95PTIXAO01ESN0V5P22M">
+<createdBy>Harsh</createdBy>
+<createdTime>2022-09-18 12:15:04 UTC</createdTime>
+<ownerDesignName>JPA_Demos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6183009-AEE5-A321-82A4-488B389325E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

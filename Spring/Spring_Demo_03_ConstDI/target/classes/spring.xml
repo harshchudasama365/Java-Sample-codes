@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+<!-- Constructor dependency injection -->
+	<bean id="stud1" class="com.lti.demo.Student">
+		<constructor-arg value="301"></constructor-arg>
+		<constructor-arg value="Heena"></constructor-arg>
+		<constructor-arg  value="89"></constructor-arg>
+		<constructor-arg   ref="address"></constructor-arg>
+	<!--	<constructor-arg> <ref bean="address"/></constructor-arg>  -->
+	</bean>
+	
+	<bean id="address" class="com.lti.demo.Address">
+		<property name="city" value="Mumbai"></property>
+		<property name="area" value="Andheri"></property>
+	</bean>
+
+</beans>

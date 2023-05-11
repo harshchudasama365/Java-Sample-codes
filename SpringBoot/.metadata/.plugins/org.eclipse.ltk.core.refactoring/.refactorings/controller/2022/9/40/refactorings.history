@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.lti.nsp.pojo&apos; to &apos;com.lti.nsp.entity&apos;&#x0D;&#x0A;- Original project: &apos;controller&apos;&#x0D;&#x0A;- Original element: &apos;controller/src/main/java/com.lti.nsp.pojo&apos;&#x0D;&#x0A;- Renamed element: &apos;controller/src/main/java/com.lti.nsp.entity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.lti.nsp.pojo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.lti.nsp.pojo" name="com.lti.nsp.entity" qualified="false" references="true" stamp="1664279131487" textual="false" version="1.0"/>
+</session>

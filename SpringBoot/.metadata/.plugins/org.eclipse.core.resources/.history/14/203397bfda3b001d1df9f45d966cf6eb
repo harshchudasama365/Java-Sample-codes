@@ -1,0 +1,30 @@
+package com.lti.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Institute_Details")
+public class InstituteRegistration {
+	
+	@Id
+	String instiCode;
+	String name;
+	String inststate;
+	String instdist;		
+	String emailid;
+	long disecode;
+	String location;
+	String institutionType;
+	String affiUnivState;
+	String affilatedUBName;
+	String password;
+	String address;
+	String city;
+	String state;
+	String district;
+	long pincode;
+	long telephone;
+	String applicationStatus = "pending approval";
+}

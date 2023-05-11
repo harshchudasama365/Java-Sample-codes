@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+
+	<!-- byName, byType, constructor-->
+	
+	 <bean id="c1" class="com.lti.Spring_Demo_07_Autowiring_Xml.Customer" autowire="byName"> 
+	 <property name="cname" value="Hemant M."></property>
+
+	</bean> 
+	
+	<!-- <bean id="c1" class="com.lti.Spring_Demo_07_Autowiring_Xml.Customer" autowire="byType"> 
+	 <property name="cname" value="Hemant M."></property>
+	</bean> -->
+	
+<!--<bean id="c1" class="com.lti.Spring_Demo_07_Autowiring_Xml.Customer" autowire="constructor">
+	<constructor-arg index="0" value="John K"></constructor-arg>
+	</bean> -->	
+	
+	<bean id="acc_ref" class="com.lti.Spring_Demo_07_Autowiring_Xml.Account">
+		<property name="acctype" value="Saving Account"></property>
+	</bean>
+
+</beans>

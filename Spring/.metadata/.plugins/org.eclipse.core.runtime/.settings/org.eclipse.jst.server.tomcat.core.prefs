@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+locationorg.eclipse.jst.server.tomcat.runtime.100=D\:/LTI/server/apache-tomcat-10.0.6
+locationorg.eclipse.jst.server.tomcat.runtime.80=D\:/LTI/server/apache-tomcat-8.0.36
+locationorg.eclipse.jst.server.tomcat.runtime.85=D\:/LTI/server/apache-tomcat-8.5.61
+locationorg.eclipse.jst.server.tomcat.runtime.90=D\:/LTI/server/apache-tomcat-9.0.46

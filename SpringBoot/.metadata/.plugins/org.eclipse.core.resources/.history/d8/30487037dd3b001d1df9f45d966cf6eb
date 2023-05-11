@@ -1,0 +1,13 @@
+package com.lti.dao;
+
+import com.lti.entity.InstituteRegistration;
+
+public class InstituteServiceImpl implements InstituteService{
+
+	@Override
+	public InstituteRegistration addInstitute(InstituteRegistration addObj) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
